@@ -1,0 +1,3 @@
+GET        /subfolder/page        controllers.customer.subfolder.Application.getPage()
+
+GET        /assets/*file          controllers.customer.Assets.at(path="/public", file)

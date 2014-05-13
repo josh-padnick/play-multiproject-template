@@ -1,0 +1,14 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Include other route files
+->         /admin                admin.Routes
+->         /customer             customer.Routes
+->         /common               common.Routes
+
+# Accessing metadata about the app/deployment
+GET        /git-commit-id        controllers.Application.getCurrentlyDeployedGitSHA()
+
+## Map static resources from the /public folder to the /assets URL path
+GET        /assets/*file         controllers.Assets.at(path="/public", file)

@@ -1,0 +1,5 @@
+GET        /index               controllers.admin.Application.getIndex()
+GET        /test1               controllers.admin.subfolder.Application.test1()
+GET        /test2               controllers.admin.subfolder.Application.test2()
+
+GET        /assets/*file        controllers.admin.Assets.at(path="/public", file)
