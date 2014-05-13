@@ -25,23 +25,22 @@ This project is an example of an application an administrator might use.
 
 3. Load the Play Framework project in sbt by using activator as follows:
 
-```
+ ```
 cd /my/project/directory
 activator
 ```
 
 4. Once in sbt/activator, run the application:
 
-```
+ ```
 run
 ```
 
 5. The app should open a TCP listener at port 9000 on localhost.  Now try these URLs from the routes files:
-
-- http://localhost:9000/admin/index
-- http://localhost:9000/admin/test1
-- http://localhost:9000/admin/test2
-- http://localhost:9000/customer/subfolder/page
+ - http://localhost:9000/admin/index
+ - http://localhost:9000/admin/test1
+ - http://localhost:9000/admin/test2
+ - http://localhost:9000/customer/subfolder/page
 
 6. To run the project in IntelliJ, from the sbt/activator console type ```idea``` and use IntelliJ to open the folder containing this project. 
 
@@ -75,4 +74,4 @@ Check out the [docs](docs) folder for information on configuring IntelliJ IDEA, 
 
 ## Attribution
 Most of this template was built by carefully reading http://www.playframework.com/documentation/2.2.3/SBTSubProjects.  I also 
-benefitted from https://github.com/cnicodeme/play2.2-subproject.
+benefitted from the template shown at https://github.com/cnicodeme/play2.2-subproject.
