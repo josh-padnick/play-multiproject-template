@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaSbtSettings">
+    <option name="linkedExternalProjectsSettings">
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="jdk" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/modules/admin" />
+            <option value="$PROJECT_DIR$/modules/admin/project" />
+            <option value="$PROJECT_DIR$/modules/common" />
+            <option value="$PROJECT_DIR$/modules/common/project" />
+            <option value="$PROJECT_DIR$/modules/customer" />
+            <option value="$PROJECT_DIR$/modules/customer/project" />
+            <option value="$PROJECT_DIR$/project" />
+          </set>
+        </option>
+        <option name="resolveSbtClassifiers" value="true" />
+        <option name="sbtVersion" value="0.13.12" />
+      </SbtProjectSettings>
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/.idea/modules" />
+        <option name="jdk" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/.idea/modules" />
+            <option value="$PROJECT_DIR$/.idea/modules/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="0.13.5" />
+        <option name="useAutoImport" value="true" />
+        <option name="useOurOwnAutoImport" value="true" />
+      </SbtProjectSettings>
+    </option>
+    <option name="maximumHeapSize" value="4096" />
+    <option name="vmParameters" value="" />
+  </component>
+</project>

@@ -1,11 +1,9 @@
 logs
-project/project
-project/target
+project/
 target
 tmp
 .history
 dist
-/.idea
 /*.iml
 /out
 /.idea_modules

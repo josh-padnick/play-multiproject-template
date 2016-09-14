@@ -1,1 +1,10 @@
-GET        /assets/*file        controllers.common.Assets.at(path="/public", file)
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+
+# Note: paths are relative to /common, e.g. /assets/img/test.png will create /common/assets/img/test.png
+
+
+GET        /assets/*file        controllers.Assets.at(path="/public", file)
+
