@@ -8,10 +8,10 @@ import play.mvc.Result;
  * Company: Omedix, Inc.
  * Date: 5/11/14 at 5:44 PM
  */
-public class Application extends Controller {
+public class CustomerApplication extends Controller {
 
-    public static Result getPage1() {
-        return ok( views.html.customer.subfolder.page.render() );
+    public Result get() {
+        return ok( "Customer App" );
     }
 
 }

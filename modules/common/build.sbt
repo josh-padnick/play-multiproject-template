@@ -1,5 +1,10 @@
 name := "MyApplication-common"
 
+organization := "com.example"
+
+version := "0.2.0"
+
+scalaVersion := "2.11.8"
 
 
 // MANAGED DEPENDENCIES

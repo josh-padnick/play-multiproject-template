@@ -10,7 +10,6 @@ scalaVersion := "2.11.8"
 
 
 
-
 // ----------------------------------
 // common settings to all subprojects
 // ----------------------------------
@@ -44,6 +43,7 @@ scalacOptions ++= Seq(
 
 // Root project. Container for all the projects
 lazy val root = project.in(file("."))
+      .enablePlugins(PlayJava)
       .aggregate(common, admin, customer)
       .dependsOn(common, admin, customer)
 
