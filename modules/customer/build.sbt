@@ -1,8 +1,11 @@
-name := "aragorn-orgPortal"
+name := "customer"
 
-version := "BUILD"
+organization := "com.example"
 
-scalaVersion := "2.11.7"
+version := "0.2.0"
+
+scalaVersion := "2.11.8"
+
 
 libraryDependencies ++= Seq(
       // Add additional dependencies here; uses Apache Ivy info.

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="customer" external.linked.project.path="$MODULE_DIR$/../../modules/customer" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../../modules/customer/target/scala-2.11/classes" />
+    <output-test url="file://$MODULE_DIR$/../../modules/customer/target/scala-2.11/test-classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../modules/customer">
+      <sourceFolder url="file://$MODULE_DIR$/../../modules/customer/app" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../modules/customer/app-2.11" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../modules/customer/target/scala-2.11/routes/main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../modules/customer/target/scala-2.11/src_managed/main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../modules/customer/target/scala-2.11/twirl/main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../modules/customer/target/scala-2.11/routes/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../modules/customer/target/scala-2.11/src_managed/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../modules/customer/target/scala-2.11/twirl/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../modules/customer/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../modules/customer/test-2.11" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../modules/customer/conf" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../modules/customer/target/scala-2.11/resource_managed/main" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../modules/customer/target/scala-2.11/resource_managed/test" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../modules/customer/test/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../modules/customer/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="common" exported="" />
+  </component>
+</module>

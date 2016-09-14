@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Play2ExcludedModulesSettings">
+    <option name="INFO">
+      <map>
+        <entry key="admin">
+          <value>
+            <ProjectSettingsEntry>
+              <option name="confDir" value="$PROJECT_DIR$/modules/admin/app" />
+              <option name="templateImports">
+                <list>
+                  <option value="models._" />
+                  <option value="controllers._" />
+                  <option value="play.api.i18n._" />
+                  <option value="views.xml._" />
+                  <option value="play.api.templates.PlayMagic._" />
+                  <option value="java.lang._" />
+                  <option value="java.util._" />
+                  <option value="scala.collection.JavaConversions._" />
+                  <option value="scala.collection.JavaConverters._" />
+                  <option value="play.core.j.PlayMagicForJava._" />
+                  <option value="play.mvc._" />
+                  <option value="play.data._" />
+                  <option value="play.api.data.Field" />
+                  <option value="play.mvc.Http.Context.Implicit._" />
+                </list>
+              </option>
+              <option name="routesImports">
+                <list>
+                  <option value="controllers.Assets.Asset" />
+                  <option value="play.libs.F" />
+                </list>
+              </option>
+              <option name="uri" value="$PROJECT_DIR$/modules/admin" />
+            </ProjectSettingsEntry>
+          </value>
+        </entry>
+        <entry key="common">
+          <value>
+            <ProjectSettingsEntry>
+              <option name="confDir" value="$PROJECT_DIR$/modules/common/app" />
+              <option name="templateImports">
+                <list>
+                  <option value="models._" />
+                  <option value="controllers._" />
+                  <option value="play.api.i18n._" />
+                  <option value="views.xml._" />
+                  <option value="play.api.templates.PlayMagic._" />
+                  <option value="java.lang._" />
+                  <option value="java.util._" />
+                  <option value="scala.collection.JavaConversions._" />
+                  <option value="scala.collection.JavaConverters._" />
+                  <option value="play.core.j.PlayMagicForJava._" />
+                  <option value="play.mvc._" />
+                  <option value="play.data._" />
+                  <option value="play.api.data.Field" />
+                  <option value="play.mvc.Http.Context.Implicit._" />
+                </list>
+              </option>
+              <option name="routesImports">
+                <list>
+                  <option value="controllers.Assets.Asset" />
+                  <option value="play.libs.F" />
+                </list>
+              </option>
+              <option name="uri" value="$PROJECT_DIR$/modules/common" />
+            </ProjectSettingsEntry>
+          </value>
+        </entry>
+        <entry key="customer">
+          <value>
+            <ProjectSettingsEntry>
+              <option name="confDir" value="$PROJECT_DIR$/modules/customer/app" />
+              <option name="templateImports">
+                <list>
+                  <option value="models._" />
+                  <option value="controllers._" />
+                  <option value="play.api.i18n._" />
+                  <option value="views.xml._" />
+                  <option value="play.api.templates.PlayMagic._" />
+                  <option value="java.lang._" />
+                  <option value="java.util._" />
+                  <option value="scala.collection.JavaConversions._" />
+                  <option value="scala.collection.JavaConverters._" />
+                  <option value="play.core.j.PlayMagicForJava._" />
+                  <option value="play.mvc._" />
+                  <option value="play.data._" />
+                  <option value="play.api.data.Field" />
+                  <option value="play.mvc.Http.Context.Implicit._" />
+                </list>
+              </option>
+              <option name="routesImports">
+                <list>
+                  <option value="controllers.Assets.Asset" />
+                  <option value="play.libs.F" />
+                </list>
+              </option>
+              <option name="uri" value="$PROJECT_DIR$/modules/customer" />
+            </ProjectSettingsEntry>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
