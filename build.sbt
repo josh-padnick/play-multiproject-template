@@ -64,4 +64,3 @@ lazy val customer = project.in(file("modules/customer"))
        .enablePlugins(PlayJava)
        .dependsOn(common)
 
-
