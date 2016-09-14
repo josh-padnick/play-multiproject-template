@@ -6,4 +6,4 @@
 
 GET        /                      controllers.admin.AdminApplication.get()
 
-GET        /assets/*file          controllers.Assets.at(path="/public/lib/admin", file)
+GET        /assets/*file          controllers.admin.Assets.at(path="/public/lib/admin", file)

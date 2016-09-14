@@ -11,7 +11,7 @@ import play.mvc.Result;
 public class CustomerApplication extends Controller {
 
     public Result get() {
-        return ok( "Customer App" );
+        return ok("Customer App");
     }
 
 }
