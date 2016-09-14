@@ -2,6 +2,16 @@
 <project version="4">
   <component name="ScalaCompilerConfiguration">
     <option name="incrementalityType" value="SBT" />
+    <profile name="SBT 1" modules="root">
+      <option name="reflectiveCalls" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+      </parameters>
+    </profile>
     <profile name="SBT 2" modules="admin,common,customer">
       <option name="deprecationWarnings" value="true" />
       <option name="uncheckedWarnings" value="true" />
@@ -9,11 +19,6 @@
         <parameter value="-encoding" />
         <parameter value="utf8" />
       </parameters>
-    </profile>
-    <profile name="SBT 3" modules="root">
-      <option name="reflectiveCalls" value="true" />
-      <option name="featureWarnings" value="true" />
-      <option name="explainTypeErrors" value="true" />
     </profile>
   </component>
 </project>

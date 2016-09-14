@@ -1,3 +1,10 @@
-GET        /         controllers.customer.CustomerApplication.get()
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
 
-#GET        /assets/*file          controllers.customer.Assets.at(path="/public", file)
+# Note: paths are relative to /customer, e.g. /assets/img/test.png will create /customer/assets/img/test.png
+
+GET        /                      controllers.customer.CustomerApplication.get()
+
+GET        /assets/*file          controllers.Assets.at(path="/public/lib/customer", file)
+

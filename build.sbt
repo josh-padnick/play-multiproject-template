@@ -41,7 +41,7 @@ scalacOptions ++= Seq(
 // Check http://www.scala-sbt.org/0.13/docs/Multi-Project.html
 
 
-// Root project. Container for all the projects
+// Root project. Container for all the projects.
 lazy val root = project.in(file("."))
       .enablePlugins(PlayJava)
       .aggregate(common, admin, customer)
@@ -53,13 +53,13 @@ lazy val common = project.in(file("modules/common"))
        .enablePlugins(PlayJava)
 
 
-// Admin Portal
+// Admin app
 lazy val admin = project.in(file("modules/admin"))
        .enablePlugins(PlayJava)
        .dependsOn(common)
        
 
-// Organization Portal (e.g. Customer Portal)
+// Customer app
 lazy val customer = project.in(file("modules/customer"))
        .enablePlugins(PlayJava)
        .dependsOn(common)

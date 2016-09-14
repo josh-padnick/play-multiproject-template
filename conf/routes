@@ -8,6 +8,10 @@
 ->         /customer             customer.Routes
 ->         /common               common.Routes
 
+
+GET        /                     controllers.common.CommonApp.get()
+
+
 # Accessing metadata about the app/deployment
 #GET        /git-commit-id        controllers.Application.getCurrentlyDeployedGitSHA()
 ## Map static resources from the /public folder to the /assets URL path
